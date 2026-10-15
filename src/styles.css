@@ -173,7 +173,7 @@ h1 { font-size: 64px; line-height: 1.06; } h2 { font-size: 44px; line-height: 1.
 :root { --velvet: #25211f; --velvet-deep: #171514; --on-velvet: #fffaf0; --gold: #e7bd69; --gold-muted: #a77635; --soft-surface: #f4efe6; --hero-shade: linear-gradient(90deg, #171514 0%, rgb(23 21 20 / 94%) 27%, rgb(23 21 20 / 52%) 52%, transparent 75%); --shadow-soft: 0 12px 35px rgb(35 27 16 / 14%); --background: #fffdf8; --foreground: #29231e; --border: #e7ddcc; --muted-foreground: #776e63; --primary: #e7bd69; --primary-foreground: #211b15; }
 .announcement { display:flex; justify-content:center; align-items:center; gap:8px; letter-spacing:.12em; }
 .brand { gap:12px; }
-.brand-mark { display:flex; align-items:center; justify-content:center; width:52px; height:52px; border:2px solid transparent; border-radius:50%; background:linear-gradient(#211d1a,#211d1a) padding-box,linear-gradient(145deg,#f3bd00,#fa5425,#ed00bd) border-box; color:#e8c66e; font-family:var(--font-serif); font-size:27px; }
+.brand img { width:52px; height:52px; border-radius:50%; object-fit:cover; border:2px solid #d6ae58; }
 .brand .brand-name { font-family:var(--font-serif); font-size:38px; line-height:.78; }
 .brand-name small { font-size:8px; letter-spacing:.13em; }
 .header-contact a:hover,.contact-icons a:hover { color:#f09058; }
@@ -181,4 +181,4 @@ h1 { font-size: 64px; line-height: 1.06; } h2 { font-size: 44px; line-height: 1.
 .gold-button { background:#e9c36f; }
 .site-footer .footer-brand { text-transform:lowercase; }
 .contact-methods { grid-template-columns:repeat(2,minmax(0,1fr)); }
-@media(max-width:760px) { .announcement { font-size:8px; letter-spacing:.07em; padding:10px 8px; }.brand-mark { width:42px;height:42px;font-size:23px; }.brand .brand-name {font-size:33px;} }
+@media(max-width:760px) { .announcement { font-size:8px; letter-spacing:.07em; padding:10px 8px; }.brand img { width:42px;height:42px; }.brand .brand-name {font-size:33px;} }

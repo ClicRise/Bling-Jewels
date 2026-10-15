@@ -11,7 +11,7 @@ bun install
 bun run dev
 ```
 
-The storefront catalogue uses the five product photos supplied for Bling Jewels. Confirm each item's stock, price, materials and other specifications directly with the shop before publishing product claims.
+The storefront catalogue uses the seven product photos supplied for Bling Jewels. Confirm each item's stock, price, materials and other specifications directly with the shop before publishing product claims.
 
 ## Store details
 

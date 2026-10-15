@@ -3,7 +3,7 @@ import { ArrowRight, ArrowUpRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { products, pageHead } from '@/lib/jewellery';
 import { ProductCard, TrustStrip, ConsultationBand } from '@/components/jewellery';
-import heroImage from '@/assets/4.png';
+import heroImage from '@/assets/layered-gold-profile.png';
 
 export const Route = createFileRoute('/')({ head: () => pageHead('Jewellery & Accessories', 'Discover timeless jewellery and accessories at Bling Jewels in Khuzdar. Message us for prices, availability and product details.'), component: Index });
 
@@ -15,7 +15,7 @@ function Index() {
 
   return <>
     <section className="home-hero">
-      <img className="hero-photo" src={heroImage} alt="Gold flower statement earrings" />
+      <img className="hero-photo" src={heroImage} alt="Model wearing a layered necklace" />
       <div className="hero-shade" />
       <div className="hero-copy">
         <p className="eyebrow">BLING JEWELS · KHUZDAR</p>
